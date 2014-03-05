@@ -53,6 +53,7 @@ game.BallEntity = me.ObjectEntity.extend ({
             if(collision)  {
                 if(collision.type === "paddle") {
                     this.vel.y *= -1;
+                    me.audio.play("paddle-sfx");
             
                 }   
             }    
@@ -84,6 +85,7 @@ game.BrickEntity = me.ObjectEntity.extend ({
        settings.spritewidth = "32";
        settings.spriteheight = "16";
        this.parent(x, y, settings);
+       
     },
     
     update: function() {}

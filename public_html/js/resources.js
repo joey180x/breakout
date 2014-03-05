@@ -24,7 +24,7 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 O*/
         {name: "level01", type: "tmx", src: "data/map/level01.tmx"},
-        {name: "level02", type: "tmx", src: "data/map/level02.tmx"}
+        {name: "level02", type: "tmx", src: "data/map/level02.tmx"},
         
         
         
@@ -42,4 +42,5 @@ game.resources = [
 	 * @example
 	 * {name: "example_sfx", type: "audio", src: "data/sfx/", channel : 2}
 	 */
+        {name: "paddle-sfx", type:"audio", src: "data/sfx/", channel: 1} 
 ];
